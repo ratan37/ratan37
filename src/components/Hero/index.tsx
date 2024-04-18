@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -11,6 +12,30 @@ const Hero = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
+              <div className="w-60 max-w-full px-4 xl:mr-12">
+              <Link
+                href="/"
+                
+                // className={`header-logo block w-full ${
+                //   sticky ? "py-5 lg:py-2" : "py-8"
+                // } `}
+              >
+                <Image
+                  src="/images/logo/logo.png"
+                  alt="logo"
+                  width={140}
+                  height={30}
+                  className="w-full dark:hidden"
+                />
+                <Image
+                  src="/images/logo/logo.png"
+                  alt="logo"
+                  width={140}
+                  height={30}
+                  className="hidden w-full dark:block"
+                />
+              </Link>
+            </div>
                 <h4 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                 Never be left in the dark again with <i> Rattan Energy</i>  generators providing backup power during outages.
                 </h4>
@@ -21,7 +46,7 @@ const Hero = () => {
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="https://nextjstemplates.com/templates/saas-starter-startup"
+                     href="https://wa.me/917888733548?text=Hi%20there,%20I'm%20interested%20in%20your%20product.%20Please%20let%20me%20know%20further%20details."
                     className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
                    👉 Contact Now
