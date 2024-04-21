@@ -17,10 +17,7 @@ const Video = () => {
               data-wow-delay=".15s"
             >
               <div className="relative aspect-[77/40] items-center justify-center">
-              <video autoPlay loop className="w-full h-100">
-                  <source src="/images/video/promo.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+              <Image src="/images/promo.gif" alt="Promo GIF" className="w-full h-100" width={100} height={200}/>
                 
               </div>
             </div>
