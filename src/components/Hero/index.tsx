@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Link from "next/link";
 import Image from "next/image";
 
@@ -36,13 +37,12 @@ const Hero = () => {
                 />
               </Link>
             </div>
-                <h4 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                {/* <h4 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                 Never be left in the dark again with <i> Rattan Energy</i>  generators providing backup power during outages.
-                </h4>
+                </h4> */}
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                Discover the ultimate solution for uninterrupted power supply with Rattan Energy generators. 
-                Our state-of-the-art generators are engineered to deliver dependable performance, whether you are at home, 
-                on the job site, or in need of emergency backup power.
+                Discover Rattan Energy's top-tier petrol generators, 3 kVA to 7 kVA, offering manual and self-start options. Exceptional quality, affordability, and nationwide delivery make us your go-to for reliable power solutions. 
+                Contact us for bulk orders or inquiries. Power your world with Rattan Energy!
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
